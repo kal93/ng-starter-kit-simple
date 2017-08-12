@@ -1,4 +1,4 @@
-# Angular (4+) start kit for simple web apps
+# Angular (4+) starter kit for simple web apps
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.0.
 ## Template dependencies
 - [Angular Material](https://material.angular.io/)
