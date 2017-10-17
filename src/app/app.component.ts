@@ -11,6 +11,6 @@ import {TranslateService} from '@ngx-translate/core';
 export class AppComponent {
   constructor(private translate: TranslateService) {
     translate.setDefaultLang('en');
-    if(translate.getBrowserLang() === 'nl') translate.use('nl');
+    if (translate.getBrowserLang() === 'nl') translate.use('nl');
   }
 }

@@ -2,8 +2,8 @@
 @import './customPalletes.scss';
 @include mat-core();
 
-$app-primary: mat-palette($md-mdlight-purple);
-$app-accent:  mat-palette($md-mdlight-orange);
+$app-primary: mat-palette($mat-light-purple);
+$app-accent:  mat-palette($mat-light-orange);
 $app-warn:    mat-palette($mat-red);
 $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
@@ -11,8 +11,8 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 
 
 // ALTERNATIVE THEME
-$dark-primary: mat-palette($md-mdlight-blue);
-$dark-accent:  mat-palette($md-mdlight-orange);
+$dark-primary: mat-palette($mat-light-blue);
+$dark-accent:  mat-palette($mat-light-orange);
 $dark-warn:    mat-palette($mat-deep-orange);
 $dark-theme:   mat-dark-theme($dark-primary, $dark-accent, $dark-warn);
 
